@@ -1,0 +1,13 @@
+pyinstaller --onefile --windowed --clean ^
+  --name "RGLApp" ^
+  --icon=icon.ico ^
+  --add-data "model_file.py;." ^
+  --add-data "class_model.py;." ^
+  --add-data "best_model_epoch_266_top1_33.64.pth;." ^
+  --add-data "idx2label.json;." ^
+  --add-data "hand_landmarker.task;." ^
+  --add-data "face_landmarker_v2_with_blendshapes.task;." ^
+  --add-data "pose_landmarker.task;." ^
+  --collect-all mediapipe ^
+  --hidden-import mediapipe.tasks.c ^
+  ui.py

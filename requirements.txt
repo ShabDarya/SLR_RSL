@@ -1,0 +1,17 @@
+matplotlib==3.10.8
+mediapipe==0.10.33
+joblib==1.5.3
+numpy==2.2.6
+opencv-contrib-python==4.13.0.92
+opencv-python==4.12.0.88
+pandas==2.3.3
+scikit-learn==1.8.0
+scipy==1.17.0
+threadpoolctl==3.6.0
+torch==2.9.1
+tqdm==4.67.1
+pillow==12.1.0
+networkx==3.6.1
+sympy==1.14.0
+pyinstaller==6.20.0
+pyinstaller-hooks-contrib==2026.5
